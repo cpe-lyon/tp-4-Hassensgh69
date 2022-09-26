@@ -65,3 +65,8 @@ Ce sont les paquets gnome-sudoku ou ksudoku
           hassen@LAPTOP-C8JV71L4:~$ dpkg -S ls | grep "/ls$"
           coreutils: /bin/ls
           klibc-utils: /usr/lib/klibc/bin/ls
+          
+  Script :
+          #!/bin/bash
+
+          echo $(dpkg -S $1 | grep "/$1")
