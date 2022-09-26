@@ -30,3 +30,18 @@ alias pour qu’il ne soit pas perdu au prochain redémarrage ?
            root@LAPTOP-C8JV71L4:/home/hassen# grep "apt install" /var/log/apt/history.log |tail -n5
            Commandline: /usr/bin/apt install -y language-pack-fr wfrench
            Commandline: apt install npm
+
+
+5. Utilisez les commandes dpkg et apt pour compter de deux manières différentes le nombre de total de paquets installés sur la machine (ne pas hésiter à consulter le manuel !). Comment explique-t-on la(petite) différence de comptage ? Pourquoi ne peut-on pas utiliser directement le fichier dpkg.log ?
+          
+          root@LAPTOP-C8JV71L4:/home/hassen# dpkg -l | grep "ii" | wc -l
+          1096
+          
+ 6. Combien de paquets sont disponibles en téléchargement sur les dépôts Ubuntu ?
+ 
+          root@LAPTOP-C8JV71L4:/home/hassen# apt list | wc -l
+
+          WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+          68953
+ 
