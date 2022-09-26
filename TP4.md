@@ -82,3 +82,15 @@ Ce sont les paquets gnome-sudoku ou ksudoku
 Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De quoi s’agit-il ?
 
           root@LAPTOP-C8JV71L4:/home/hassen# dpkg -L coreutils
+
+## Exercice 5. aptitude
+
+emacs est un éditeur de texte
+Lynx est un navigateurs web en mode texte
+
+## Exercice 6. Installation d’un paquet par PPA
+
+2. Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?
+          
+          root@LAPTOP-C8JV71L4:/etc/apt/sources.list.d# ls
+          linuxuprising-ubuntu-java-jammy.list
