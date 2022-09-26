@@ -99,6 +99,7 @@ Lynx est un navigateurs web en mode texte
 
 1. Commencez par cloner le dépôt git suivant :
 git clone https://gitlab.com/jallbrit/cbonsai
+          
           root@LAPTOP-C8JV71L4:~# git clone https://gitlab.com/jallbrit/cbonsai
           Clonage dans 'cbonsai'...
           warning: redirection vers https://gitlab.com/jallbrit/cbonsai.git/
