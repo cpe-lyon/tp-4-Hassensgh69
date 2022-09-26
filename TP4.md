@@ -45,3 +45,23 @@ alias pour qu’il ne soit pas perdu au prochain redémarrage ?
 
           68953
  
+7. A quoi servent les paquets glances, tldr et hollywood ? Installez-les et testez-les.
+
+glances : Il affiche les informations du pc et son utilisation de cpu en temp réel par exemple
+          root@LAPTOP-C8JV71L4:/home/hassen# apt install glances
+
+tldr :  C'est un man simplifié 
+          root@LAPTOP-C8JV71L4:/home/hassen# apt install tldr
+          
+hollywood : C'est un petit jeu qui affiche une simulation de hacking
+          root@LAPTOP-C8JV71L4:/home/hassen# apt install hollywood
+
+8. Quels paquets proposent de jouer au sudoku ? 
+
+Ce sont les paquets gnome-sudoku ou ksudoku
+
+## Exercice 2.
+
+          hassen@LAPTOP-C8JV71L4:~$ dpkg -S ls | grep "/ls$"
+          coreutils: /bin/ls
+          klibc-utils: /usr/lib/klibc/bin/ls
