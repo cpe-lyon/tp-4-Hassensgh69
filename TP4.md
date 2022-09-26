@@ -94,3 +94,20 @@ Lynx est un navigateurs web en mode texte
           
           root@LAPTOP-C8JV71L4:/etc/apt/sources.list.d# ls
           linuxuprising-ubuntu-java-jammy.list
+
+## Exercice 7. Installation d’un logiciel à partir du code source
+
+1. Commencez par cloner le dépôt git suivant :
+git clone https://gitlab.com/jallbrit/cbonsai
+          root@LAPTOP-C8JV71L4:~# git clone https://gitlab.com/jallbrit/cbonsai
+          Clonage dans 'cbonsai'...
+          warning: redirection vers https://gitlab.com/jallbrit/cbonsai.git/
+          remote: Enumerating objects: 383, done.
+          remote: Counting objects: 100% (216/216), done.
+          remote: Compressing objects: 100% (103/103), done.
+          remote: Total 383 (delta 122), reused 199 (delta 111), pack-reused 167
+          Réception d'objets: 100% (383/383), 91.03 Kio | 13.00 Mio/s, fait.
+          Résolution des deltas: 100% (193/193), fait.
+          
+2. Rendez vous dans le dossier cbonsai. Un fichier README.md) est livré avec les sources, et vous explique comment compiler le programme (vous pouvez installer un lecteur de Markdown pour Bash, commemdless pour vous faciliter la lecture de ce type de fichiers).
+          
