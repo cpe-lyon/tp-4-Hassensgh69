@@ -70,3 +70,15 @@ Ce sont les paquets gnome-sudoku ou ksudoku
           #!/bin/bash
 
           echo $(dpkg -S $1 | grep "/$1")
+
+![image](https://user-images.githubusercontent.com/80455696/192234659-dd18dfab-70d2-4714-8c1c-dad7bf0818e1.png)
+
+## Exercice 3.
+
+![image](https://user-images.githubusercontent.com/80455696/192236187-0682fbc7-9630-42e7-96c8-59598e75f942.png)
+
+## Exercice 4.
+
+Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De quoi s’agit-il ?
+
+          root@LAPTOP-C8JV71L4:/home/hassen# dpkg -L coreutils
