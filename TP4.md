@@ -151,6 +151,18 @@ reprepro -b . export
 
 ![image](https://user-images.githubusercontent.com/80455696/192968476-b294ac74-58e8-4cda-940e-bb5dba718d7e.png)
 
+5.Copiez le paquet origine-commande.deb créé précédemment dans le dossier packages du dépôt, puis,
+à la racine du dépôt, exécutez la commande
+
+![image](https://user-images.githubusercontent.com/80455696/193017703-cd147dab-1e74-44bb-b735-06fa888fc713.png)
+
+6. Il faut à présent indiquer à apt qu’il existe un nouveau dépôt dans lequel il peut trouver des logiciels.
+Pour cela, créez (avec sudo) dans le dossier /etc/apt/sources.list.d le fichier repo-cpe.list
+contenant : deb file:/home/VOTRE_NOM/repo-cpe cosmic multiverse
+
+![image](https://user-images.githubusercontent.com/80455696/193017922-8003fbb4-3510-4ec0-a212-b7e99694be94.png)
+
+## Signature du dépôt avec GPG
 
 Apres avoir la mis a jour avec apt update on peut voir que notre dépôt est désormais pris en compte
 ![image](https://user-images.githubusercontent.com/80455696/193000772-d91670e7-1bea-4e97-b34f-ec22792f6156.png)
