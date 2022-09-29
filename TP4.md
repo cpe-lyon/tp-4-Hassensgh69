@@ -151,7 +151,6 @@ reprepro -b . export
 
 ![image](https://user-images.githubusercontent.com/80455696/192968476-b294ac74-58e8-4cda-940e-bb5dba718d7e.png)
 
-5. Copiez le paquet origine-commande.deb créé précédemment dans le dossier packages du dépôt, puis,
-à la racine du dépôt, exécutez la commande
 
-![image](https://user-images.githubusercontent.com/80455696/192974851-ee712d02-cf1c-49fc-b943-b96c3a187b0f.png)
+Apres avoir la mis a jour avec apt update on peut voir que notre dépôt est désormais pris en compte
+![image](https://user-images.githubusercontent.com/80455696/193000772-d91670e7-1bea-4e97-b34f-ec22792f6156.png)
