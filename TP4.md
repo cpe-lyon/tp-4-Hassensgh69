@@ -118,3 +118,9 @@ git clone https://gitlab.com/jallbrit/cbonsai
 
 ## Exercice 8. Création de dépôt personnalisé
 
+1. Dans le dossier scripts créé lors du TP 2, créez un sous-dossier origine-commande où vous créerez un
+sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez le script écrit à l’exercice 2
+
+
+![image](https://user-images.githubusercontent.com/80455696/192957060-29eb921b-ee45-4829-bbc0-644239966a5b.png)
+
