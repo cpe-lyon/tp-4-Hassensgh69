@@ -144,7 +144,7 @@ dépôt
 
 3. Dans conf, créez le fichier distributions suivant :
 
-![image](https://user-images.githubusercontent.com/80455696/192966086-80075f77-8c26-45a4-8f7a-79ed918b5457.png)
+![image](https://user-images.githubusercontent.com/80455696/193002223-3a999e6f-a172-4146-a17a-4f6596cee9ff.png)
 
 4. Dans le dossier repo-cpe, générez l’arborescence du dépôt avec la commande
 reprepro -b . export
