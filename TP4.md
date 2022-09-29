@@ -112,3 +112,9 @@ git clone https://gitlab.com/jallbrit/cbonsai
           
 2. Rendez vous dans le dossier cbonsai. Un fichier README.md) est livré avec les sources, et vous explique comment compiler le programme (vous pouvez installer un lecteur de Markdown pour Bash, commemdless pour vous faciliter la lecture de ce type de fichiers).
           
+![image](https://user-images.githubusercontent.com/80455696/192954574-fcdd9aa9-7306-4d3e-809f-6ca8be25f625.png)
+
+
+
+## Exercice 8. Création de dépôt personnalisé
+
