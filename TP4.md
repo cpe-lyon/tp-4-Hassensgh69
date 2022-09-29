@@ -124,3 +124,34 @@ sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez 
 
 ![image](https://user-images.githubusercontent.com/80455696/192957060-29eb921b-ee45-4829-bbc0-644239966a5b.png)
 
+3. Revenez dans le dossier parent de origine-commande (normalement, c’est votre $HOME) et tapez la
+commande suivante pour construire le paquet :
+
+
+![image](https://user-images.githubusercontent.com/80455696/192963975-372d9464-faf9-4b92-af3f-2d32b78c6712.png)
+
+### Création du dépôt personnel avec reprepro
+
+1. Dans votre dossier personnel, commencez par créer un dossier repo-cpe. Ce sera la racine de votre
+dépôt
+
+![image](https://user-images.githubusercontent.com/80455696/192964578-9e2b710c-fcf7-4ebd-b665-7180f6a0c526.png)
+
+2. Ajoutez-y deux sous-dossiers : conf (qui contiendra la configuration du dépôt) et packages (qui contiendra nos paquets)
+
+![image](https://user-images.githubusercontent.com/80455696/192966147-550373c6-0474-4a81-92b1-d4460c330a70.png)
+
+
+3. Dans conf, créez le fichier distributions suivant :
+
+![image](https://user-images.githubusercontent.com/80455696/192966086-80075f77-8c26-45a4-8f7a-79ed918b5457.png)
+
+4. Dans le dossier repo-cpe, générez l’arborescence du dépôt avec la commande
+reprepro -b . export
+
+![image](https://user-images.githubusercontent.com/80455696/192968476-b294ac74-58e8-4cda-940e-bb5dba718d7e.png)
+
+5. Copiez le paquet origine-commande.deb créé précédemment dans le dossier packages du dépôt, puis,
+à la racine du dépôt, exécutez la commande
+
+![image](https://user-images.githubusercontent.com/80455696/192974851-ee712d02-cf1c-49fc-b943-b96c3a187b0f.png)
